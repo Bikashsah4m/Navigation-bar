@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+            width: 100vw;
+            height: 150px;
+            background-color: brown;
+            color: cornsilk;
+            text-align: center;
+
+        }
+        h1{
+            font-size: 3em;
+        }
+        p{
+            padding-top: 20px;
+        }
+
+        #name {
+            padding: 40px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .content {
+            background-image: url('images/goma\ plane.jpg.jpg');
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: 100vw 80vh;
+            height: 70vh;
+        }
+
+        ul {
+            list-style: none;
+            display: inline-block;
+            margin: 30px;
+            margin-top: 60px;
+
+        }
+
+        .main ul {
+            position: relative;
+            left: 200px;
+        }
+
+        li {
+            width: 200px;
+            height: 13px;
+            background-color: brown;
+            margin: 8px;
+            padding: 7px;
+            text-align: center;
+            color: cornsilk;
+
+        }
+
+       img {
+            float: right;
+            position: absolute;
+            left: 600px;
+            top: 200px;
+        }
+
+        .new_menu ul {
+            /* display: inline-block;
+           float: right;*/
+            position: absolute;
+            right: 200px;
+            top: 150px;
+        }
+
+        footer li {
+            float: left;
+            padding: 4px;
+            background-color:rgb(81, 81, 236);
+
+
+        }
+
+        footer ul {
+            margin-left: 180px;
+            background-color:rgb(81, 81, 236);
+            border-radius: 8px;
+
+        }
+    
+
+        a{
+            text-decoration: none;
+        }
+
+        a:hover{
+            text-decoration:underline;
+            color: cornsilk;
+        }
+        footer a:hover{
+            font-weight:bold ;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div id="name">
+            <h1>Vehicle Management System</h1><hr>
+            <p>We are store vehicle and Manage this using this system.</p>
+        </div>
+    </div>
+    <div class="content">
+        <div class="main">
+            <ul>
+              <a href="#" target="-blank">  <li>Admin</li></a>
+              <a href="#" > <li>Register Vehicle</li></a>
+              <a href="#"> <li>Exit Website</li></a>
+              <a href="#" > <li>Show Record</li></a>
+            </ul>
+        </div>
+      <img src="">
+        <div class="new_menu">
+            <ul>
+                <li>Custumer</li>
+                <li>About</li>
+                <li>Contacts</li>
+                <li>Help</li>
+            </ul>
+        </div>
+        <footer>
+            <ul>
+               <a href="#" ><li>Apple</li></a>
+              <a href="#" > <li>Samsung</li></a>
+              <a href="#" > <li>Sony</li></a>
+              <a href="#" > <li>Vivo</li></a>
+            </ul>
+        </footer>
+    </div>
+</body>
+
+</html>
